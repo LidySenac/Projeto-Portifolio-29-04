@@ -25,7 +25,7 @@ section {
 }
 body.active {
     --text-color: #fff;
-    --bg-color: #0f0c27;
+    --bg-color: #6a6df0;
 }
 body {
     background: var(--bg-color);
@@ -74,7 +74,7 @@ header.shadow {
 .logo span {
     font-size: 1.61rem;
     font-weight: 600;
-    color: crimson
+    color: #eb6f88
 }
 .navbar {
     display: flex;
@@ -434,6 +434,28 @@ form textarea {
         padding-top: 2rem;
         display: flex;
         justify-content: center;
+    }
+    .contact-form form {
+        width: 300px;
+    }
+    .contact-button {
+        margin-left: 25%;
+    }
+}
+@media (max-width: 340px) {
+    :root {
+        --big-font: 1.7rem;
+        --medium-font: 1.1rem;
+    }
+    .home-text span {
+        font-size: 1rem;
+    }
+    .home-text h2 {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .information .info-box span {
+        font-size: 1rem;
     }
     .contact-form form {
         width: 300px;
